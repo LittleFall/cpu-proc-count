@@ -1,6 +1,6 @@
 # cpu-proc-count
 
-count how many threads are running by each cpu.
+count how many threads are running in each cpu.
 
 ```
 g++ cpc.cpp -o cpc 
