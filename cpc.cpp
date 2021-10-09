@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
     }
 
     char cmd[512];
-    sprintf(cmd, "ps -eLo \"psr stat pid lwp comm\" %s", grep_by_name);
+    sprintf(cmd, "ps -eLo \"psr stat pid lwp cmd\" %s", grep_by_name);
 
     printf("will execute: %s\n", cmd);
 
