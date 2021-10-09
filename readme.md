@@ -1,5 +1,5 @@
 # cpu-proc-count
 
 ```
-g++ cpc.cpp && ./cpc [proc_name]
+g++ cpc.cpp -o cpc && ./cpc [proc_name]
 ```
