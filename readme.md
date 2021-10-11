@@ -10,7 +10,8 @@ watch -n 0.2 ./cpc [proc_name]
 ## TODO
 
 1. set `cores` as a client parameter.
-2. export result to prometheus
+2. export result to prometheus.
+3. support count threads by `proc_id` instead of `proc_name`.
 
 ## example
 
